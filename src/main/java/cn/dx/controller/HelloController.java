@@ -12,6 +12,6 @@ public class HelloController {
     @RequestMapping(path = "/hello")
     public String sayHello(){
         System.out.println("hello world");
-        return "success";
+        return "html/success";
     }
 }
